@@ -3,13 +3,11 @@ About r-goric
 
 Home: https://CRAN.R-project.org/package=goric
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-goric-feedstock/blob/master/LICENSE.txt)
 
 Summary: Generalized Order-Restricted Information Criterion (GORIC) value for a set of hypotheses in multivariate linear models and generalised linear models.
-
-
 
 Current build status
 ====================
@@ -116,11 +114,5 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
-* [@bgruening](https://github.com/bgruening/)
-* [@cbrueffer](https://github.com/cbrueffer/)
 * [@conda-forge/r](https://github.com/conda-forge/r/)
-* [@daler](https://github.com/daler/)
-* [@dbast](https://github.com/dbast/)
-* [@jdblischak](https://github.com/jdblischak/)
-* [@johanneskoester](https://github.com/johanneskoester/)
 
