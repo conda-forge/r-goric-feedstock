@@ -1,4 +1,4 @@
-{% set version = '1.1-0' %}
+{% set version = '1.1-1' %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,13 +10,12 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/goric_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/goric/goric_{{ version }}.tar.gz
-  sha256: 29a5b9efb82e904234fb1d37a75f61bf46f0b82ca59b58f4b3ef6b4977c2b2ea
+  sha256: f6c29913fdc4aed5f9d7b9522da7ebe53db2d632867f96fdff82c101f5630f33
 
 build:
-  noarch: generic
   merge_build_host: True  # [win]
-  number: 1002
   noarch: generic
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
